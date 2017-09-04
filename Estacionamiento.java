@@ -6,10 +6,10 @@ public class Estacionamiento
     
     public Estacionamiento()
     {
-       Vehiculo e[]=new Vehiculo;
+      // Vehiculo e[]=new Vehiculo;
     }
     
-    public boolean estacionamientoLleno()
+   /* public boolean estacionamientoLleno()
     {
         if(e.length()>= 150)
         {
@@ -20,11 +20,22 @@ public class Estacionamiento
             return 1;
         }
     }
-    
-    public int salida(int horaSalida, int minutosSalida, String placa)
+    */
+   /* 
+    public int salida(String horaSalida,String placa)
     {
+        for(int i=0;i<=150;i++)
+        {
+            if(e[i].dimePlaca()==placa)
+            {
+            }
+        }
+                
+        
+        
         
     }
+    */
 }
     
     
